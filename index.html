@@ -37,6 +37,14 @@ background-repeat: no-repeat;
   })(document, 'script');
 </script>
  <script>
+  window.senderCallback = function() {
+    SenderWidget.init({
+      companyId: "i767969919",
+      lang: "ru"
+    });
+  }
+</script>
+<script>
   (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     js = d.createElement(s);
